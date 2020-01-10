@@ -3,7 +3,7 @@
 
 Name:             geronimo-osgi-support
 Version:          1.0
-Release:          14%{?dist}
+Release:          15%{?dist}
 Summary:          OSGI spec bundle support
 Group:            Development/Libraries
 License:          ASL 2.0 and W3C
@@ -70,6 +70,9 @@ sed -i 's/\r//' LICENSE NOTICE
 %doc LICENSE NOTICE
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.0-15
+- Mass rebuild 2013-12-27
+
 * Fri Aug 23 2013 Michal Srb <msrb@redhat.com> - 1.0-14
 - Migrate away from mvn-rpmbuild (Resolves: #997485)
 
